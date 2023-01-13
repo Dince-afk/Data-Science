@@ -2,10 +2,10 @@
 
 Here is a compilation of data science work I have written in Python and worked over the years on. Please feel free to use, share and add to any tools.  
 
-# Projects
+## Projects
 
 
-## [Machine Learning - Jupyter Notebook Template]()
+### [Machine Learning - Jupyter Notebook Template]()
 - I like keeping my jupyter notebook files clean and consistent. I therefore use custom templates for various tasks. Here is my template for machine learning projects.
 - Notebook includes: 
     - importing libraries and data
@@ -15,7 +15,7 @@ Here is a compilation of data science work I have written in Python and worked o
 - Packages: `NumPy`, `Pandas`, `Matplotlib`, `sklearn`
 
 
-## [TED Talks and Climate Change](https://github.com/Dince-afk/Data_Science/blob/main/1.%20Projects%20and%20Showcases/ted_talks_climate.ipynb)
+### [TED Talks and Climate Change](https://github.com/Dince-afk/Data_Science/blob/main/1.%20Projects%20and%20Showcases/ted_talks_climate.ipynb)
 ![Download](https://user-images.githubusercontent.com/68876259/170859279-77ae3739-f236-4454-9539-49471065865a.png)
 - In this notebook I have analyzed TED talks that are related to climate change and environmental issues. 
 - Questions: How did climate change related topics change over time? How do views and likes for different topics differ? 
@@ -23,10 +23,10 @@ Here is a compilation of data science work I have written in Python and worked o
 
 ---
 
-# Tools
+## Tools
 
 
-## [YouTube API to Database Automated Pipeline](https://github.com/Dince-afk/Data-Science-Python/blob/main/1.%20Projects%20and%20Showcases/youtube_api_db.ipynb)
+### [YouTube API to Database Automated Pipeline](https://github.com/Dince-afk/Data-Science-Python/blob/main/1.%20Projects%20and%20Showcases/youtube_api_db.ipynb)
 
 - Downloading and processing data from the YouTube API and uploading it to a database.
 - Packages: `requests`, `pandas`, `time`, `mysql`
@@ -63,7 +63,7 @@ mydb.commit()
 
 ---
 
-## [Get Twitter Data with Help from Tweepy and Pandas](https://github.com/Dince-afk/Data-Science-Python/blob/main/1.%20Projects%20and%20Showcases/tweepy_pandas_data.ipynb)
+### [Get Twitter Data with Help from Tweepy and Pandas](https://github.com/Dince-afk/Data-Science-Python/blob/main/1.%20Projects%20and%20Showcases/tweepy_pandas_data.ipynb)
 
 - This program allows you to get data from recent tweets, transform it into a nice pandas DataFrame and write it to your hard drive.
 - Packages: `requests`, `json`, `pandas`, `tweepy` 
@@ -94,9 +94,7 @@ memory usage: 3.0+ KB
 
 ---
 
-## [Fetch County Value for Longitude/Latitude with OpenStreetMap API](https://github.com/Dince-afk/Data-Science-Python/blob/main/1.%20Projects%20and%20Showcases/get_county.ipynb)
-
-https://github.com/Dince-afk/Data-Science-Python/blob/46d6635823d485f930de5b4a11947621d7b42d96/Public/Get Counties From API/get_county.ipynb
+### [Fetch County Value for Longitude/Latitude with OpenStreetMap API](https://github.com/Dince-afk/Data-Science-Python/blob/ba50034a2e1f1bafd36f9fdf98d4ddb6ecd313b6/Public/fetch-counties/get_county.ipynb)
 
 - This program allows you to get the county (or else state, country, country code) for any given longitude and latitude values. Works on big dataframes. In my case I've had 17,000 rows and it took me around two hours for completion.
 - Packages: `requests`, `pandas`, `time`, `mysql`, `json`, `functools`, `tqdm`, `missingno`
@@ -121,3 +119,9 @@ def foo(row):
 tqdm.pandas() 
 df["county"] = df.progress_apply(foo, axis=1)
 ```
+
+## Guides
+
+Quick guides for machine learning algorithms.
+
+### [Supervised algorithms]()
