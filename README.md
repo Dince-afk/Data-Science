@@ -96,6 +96,8 @@ memory usage: 3.0+ KB
 
 ## [Fetch County Value for Longitude/Latitude with OpenStreetMap API](https://github.com/Dince-afk/Data-Science-Python/blob/main/1.%20Projects%20and%20Showcases/get_county.ipynb)
 
+https://github.com/Dince-afk/Data-Science-Python/blob/46d6635823d485f930de5b4a11947621d7b42d96/Public/Get Counties From API/get_county.ipynb
+
 - This program allows you to get the county (or else state, country, country code) for any given longitude and latitude values. Works on big dataframes. In my case I've had 17,000 rows and it took me around two hours for completion.
 - Packages: `requests`, `pandas`, `time`, `mysql`, `json`, `functools`, `tqdm`, `missingno`
 
