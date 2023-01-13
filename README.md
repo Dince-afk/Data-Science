@@ -1,4 +1,4 @@
-# Data Science in Python
+# Data Science
 
 Here is a compilation of data science work I have written in Python and worked over the years on. Please feel free to use, share and add to any tools.  
 
