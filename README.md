@@ -6,7 +6,7 @@ Here is a compilation of data science work I have written in Python and worked o
 
 
 ## [Machine Learning - Jupyter Notebook Template]()
-- I love keeping my jupyter notebook files clean and consistent. I therefore use custom templates for various tasks. Here is my template for machine learning projects.
+- I like keeping my jupyter notebook files clean and consistent. I therefore use custom templates for various tasks. Here is my template for machine learning projects.
 - Notebook includes: 
     - importing libraries and data
     - exploring the dataset: data types, missing values, metrics, visualizations.
